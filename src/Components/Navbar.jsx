@@ -17,6 +17,7 @@ const Navbar = () => {
               value={email}
               onChange={(e) => {
                 setEmail(e.target.value);
+                
               }}
             />
             <br />
